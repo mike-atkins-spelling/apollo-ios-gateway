@@ -17,7 +17,7 @@
                BlueprintIdentifier = "9B7BDA7C23FDE90400ACD198"
                BuildableName = "ApolloGatewayWebSocket.framework"
                BlueprintName = "ApolloGatewayWebSocket"
-               ReferencedContainer = "container:Apollo.xcodeproj">
+               ReferencedContainer = "container:ApolloGateway.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,7 +43,7 @@
             BlueprintIdentifier = "9B7BDA7C23FDE90400ACD198"
             BuildableName = "ApolloGatewayWebSocket.framework"
             BlueprintName = "ApolloGatewayWebSocket"
-            ReferencedContainer = "container:Apollo.xcodeproj">
+            ReferencedContainer = "container:ApolloGateway.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <TestPlans>
@@ -76,7 +76,7 @@
             BlueprintIdentifier = "9B7BDA7C23FDE90400ACD198"
             BuildableName = "ApolloGatewayWebSocket.framework"
             BlueprintName = "ApolloGatewayWebSocket"
-            ReferencedContainer = "container:Apollo.xcodeproj">
+            ReferencedContainer = "container:ApolloGateway.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
