@@ -152,7 +152,7 @@
 		9FACA9BE1F42E67200AE2DBD /* ApolloGateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC750441D2A532C00458D91 /* ApolloGateway.framework */; };
 		9FBE0D4025407B64002ED0B1 /* AsyncResultObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE0D3F25407B64002ED0B1 /* AsyncResultObserver.swift */; };
 		9FC2333D1E66BBF7001E4541 /* GraphQLDependencyTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2333C1E66BBF7001E4541 /* GraphQLDependencyTracker.swift */; };
-		9FC750481D2A532C00458D91 /* Apollo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC750471D2A532C00458D91 /* Apollo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FC750481D2A532C00458D91 /* ApolloGateway.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC750471D2A532C00458D91 /* ApolloGateway.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FC7504F1D2A532D00458D91 /* ApolloGateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC750441D2A532C00458D91 /* ApolloGateway.framework */; };
 		9FC750611D2A59C300458D91 /* GraphQLOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC750601D2A59C300458D91 /* GraphQLOperation.swift */; };
 		9FC750631D2A59F600458D91 /* ApolloClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC750621D2A59F600458D91 /* ApolloClient.swift */; };
@@ -753,7 +753,7 @@
 		9FC2333C1E66BBF7001E4541 /* GraphQLDependencyTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphQLDependencyTracker.swift; sourceTree = "<group>"; };
 		9FC4B91F1D2A6F8D0046A641 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		9FC750441D2A532C00458D91 /* ApolloGateway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApolloGateway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FC750471D2A532C00458D91 /* Apollo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apollo.h; sourceTree = "<group>"; };
+		9FC750471D2A532C00458D91 /* ApolloGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApolloGateway.h; sourceTree = "<group>"; };
 		9FC750491D2A532C00458D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC7504E1D2A532D00458D91 /* ApolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC750551D2A532D00458D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1668,7 +1668,7 @@
 		9FE3F3961DADBD0D0072078F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9FC750471D2A532C00458D91 /* Apollo.h */,
+				9FC750471D2A532C00458D91 /* ApolloGateway.h */,
 				9FC750491D2A532C00458D91 /* Info.plist */,
 				9B74BCBE2333F4ED00508F84 /* run-bundled-codegen.sh */,
 			);
@@ -1924,7 +1924,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FC750481D2A532C00458D91 /* Apollo.h in Headers */,
+				9FC750481D2A532C00458D91 /* ApolloGateway.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,10 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://circleci.com/gh/apollographql/apollo-ios/tree/main">
-    <img src="https://circleci.com/gh/apollographql/apollo-ios/tree/main.svg?style=shield" alt="CircleCI build status">
-  </a>
-  <a href="https://raw.githubusercontent.com/apollographql/apollo-ios/main/LICENSE">
+  <a href="https://raw.githubusercontent.com/mike-atkins-spelling/apollo-ios-gateway/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000" alt="MIT license">
   </a>
   <a href="Platforms">
@@ -21,15 +18,9 @@
   <a href="https://swift.org/package-manager/">
     <img src="https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square" alt="Swift Package Manager compatible">
   </a>
-  <a href="https://github.com/Carthage/Carthage">
-    <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible">
-  </a>
-  <a href="https://cocoapods.org/pods/Apollo">
-    <img src="https://img.shields.io/cocoapods/v/Apollo.svg" alt="CocoaPods compatible">
-  </a>
 </p>
 
-### Apollo iOS is a strongly-typed, caching GraphQL client, written in Swift.
+### Apollo Gateway iOS is a strongly-typed, caching GraphQL client, written in Swift.
 
 It allows you to execute queries and mutations against a GraphQL server, and returns results as query-specific Swift types. This means you don’t have to deal with parsing JSON, or passing around dictionaries and making clients cast values to the right type manually. You also don't have to write model types yourself, because these are generated from the GraphQL definitions your UI uses.
 
@@ -49,11 +40,11 @@ There is also [comprehensive documentation](https://www.apollographql.com/docs/i
 
 ## Releases and changelog
 
-[All releases](https://github.com/apollographql/apollo-ios/releases) are catalogued and we maintain a [changelog](https://github.com/apollographql/apollo-ios/blob/main/CHANGELOG.md) which details all changes to the library.
+[All releases](https://github.com/mike-atkins-spelling/apollo-ios-gateway/releases) are catalogued and we maintain a [changelog](https://github.com/mike-atkins-spelling/apollo-ios-gateway/blob/main/CHANGELOG.md) which details all changes to the library.
 
 ## Roadmap
 
-The [roadmap](https://github.com/apollographql/apollo-ios/blob/main/ROADMAP.md) is a high-level document that describes the next major steps or milestones for this project. We are always open to feature requests, and contributions from the community.
+The [roadmap](https://github.com/mike-atkins-spelling/apollo-ios-gateway/blob/main/ROADMAP.md) is a high-level document that describes the next major steps or milestones for this project. We are always open to feature requests, and contributions from the community.
 
 ## Contributing
 
@@ -65,7 +56,7 @@ If you open `Apollo.xcodeproj`, you should be able to run the tests of the Apoll
 
 Some of the tests run against [a simple GraphQL server serving the Star Wars example schema](https://github.com/apollographql/starwars-server) (see installation instructions there).
 
-If you'd like to contribute, please refer to the [Apollo Contributor Guide](https://github.com/apollographql/apollo-ios/blob/main/CONTRIBUTING.md).
+If you'd like to contribute, please refer to the [Apollo Contributor Guide](https://github.com/mike-atkins-spelling/apollo-ios-gateway/blob/main/CONTRIBUTING.md).
 
 ## Maintainers
 
@@ -78,7 +69,7 @@ If you'd like to contribute, please refer to the [Apollo Contributor Guide](http
 
 * [Apollo Studio](https://www.apollographql.com/studio/develop/) – A free, end-to-end platform for managing your GraphQL lifecycle. Track your GraphQL schemas in a hosted registry to create a source of truth for everything in your graph. Studio provides an IDE (Apollo Explorer) so you can explore data, collaborate on queries, observe usage, and safely make schema changes.
 * [Apollo Federation](https://www.apollographql.com/apollo-federation) – The industry-standard open architecture for building a distributed graph. Use Apollo’s gateway to compose a unified graph from multiple subgraphs, determine a query plan, and route requests across your services.
-* [Apollo Client](https://www.apollographql.com/apollo-client/) – The most popular GraphQL client for the web. Apollo also builds and maintains [Apollo iOS](https://github.com/apollographql/apollo-ios) and [Apollo Android](https://github.com/apollographql/apollo-android).
+* [Apollo Client](https://www.apollographql.com/apollo-client/) – The most popular GraphQL client for the web. Apollo also builds and maintains [Apollo iOS](https://github.com/mike-atkins-spelling/apollo-ios-gateway) and [Apollo Android](https://github.com/apollographql/apollo-android).
 * [Apollo Server](https://www.apollographql.com/docs/apollo-server/) – A production-ready JavaScript GraphQL server that connects to any microservice, API, or database. Compatible with all popular JavaScript frameworks and deployable in serverless environments.
 
 ## Learn how to build with Apollo

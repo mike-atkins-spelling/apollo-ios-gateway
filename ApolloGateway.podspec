@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name         = 'Apollo'
+  s.name         = 'ApolloGateway'
   s.version      = `scripts/get-version.sh`
   s.author       = 'Meteor Development Group'
-  s.homepage     = 'https://github.com/apollographql/apollo-ios'
+  s.homepage     = 'https://github.com/mike-atkins-spelling/apollo-ios-gateway'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.summary      = "A GraphQL client for iOS, written in Swift."
 
-  s.source       = { :git => 'https://github.com/apollographql/apollo-ios.git', :tag => s.version }
+  s.source       = { :git => 'https://github.com/mike-atkins-spelling/apollo-ios-gateway.git', :tag => s.version }
 
   s.requires_arc = true
 

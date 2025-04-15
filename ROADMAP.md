@@ -1,6 +1,4 @@
-# Apollo iOS Roadmap - _Last Updated February 2022_
-
-_If this document has not been updated within the past three months, please [file an issue](https://github.com/apollographql/apollo-ios/issues/new/choose) asking the [maintainers](https://github.com/apollographql/apollo-ios#maintainers) to update it._
+# Apollo iOS Roadmap - _Last Updated April 2025_
 
 Releases adhere to the [Semantic Versioning Specification](https://semver.org/). Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
