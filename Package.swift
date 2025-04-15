@@ -13,7 +13,7 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "Apollo",
+      name: "ApolloGateway",
       targets: ["Apollo"]),
     .library(
       name: "ApolloAPI",
