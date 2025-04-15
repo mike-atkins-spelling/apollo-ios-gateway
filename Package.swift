@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "Apollo",
+  name: "ApolloGateway",
   platforms: [
     .iOS(.v12),
     .macOS(.v10_14),
@@ -16,23 +16,23 @@ let package = Package(
       name: "ApolloGateway",
       targets: ["Apollo"]),
     .library(
-      name: "ApolloAPI",
+      name: "ApolloGatewayAPI",
       targets: ["ApolloAPI"]),
     .library(
-      name: "ApolloUtils",
+      name: "ApolloGatewayUtils",
       targets: ["ApolloUtils"]),
     .library(
-      name: "Apollo-Dynamic",
+      name: "ApolloGateway-Dynamic",
       type: .dynamic,
       targets: ["Apollo"]),
     .library(
-      name: "ApolloCodegenLib",
+      name: "ApolloGatewayCodegenLib",
       targets: ["ApolloCodegenLib"]),
     .library(
-      name: "ApolloSQLite",
+      name: "ApolloGatewaySQLite",
       targets: ["ApolloSQLite"]),
     .library(
-      name: "ApolloWebSocket",
+      name: "ApolloGatewayWebSocket",
       targets: ["ApolloWebSocket"]),
   ],
   dependencies: [
