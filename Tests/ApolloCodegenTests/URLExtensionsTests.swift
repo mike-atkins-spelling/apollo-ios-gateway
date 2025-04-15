@@ -9,8 +9,8 @@
 import Foundation
 import XCTest
 import ApolloCodegenTestSupport
-@testable import ApolloCodegenLib
-import ApolloUtils
+@testable import ApolloGatewayCodegenLib
+import ApolloGatewayUtils
 
 class URLExtensionsTests: XCTestCase {
  

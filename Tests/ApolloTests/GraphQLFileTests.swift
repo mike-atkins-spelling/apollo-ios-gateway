@@ -8,7 +8,7 @@
 
 import XCTest
 
-@testable import Apollo
+@testable import ApolloGateway
 import ApolloTestSupport
 
 class GraphQLFileTests: XCTestCase {

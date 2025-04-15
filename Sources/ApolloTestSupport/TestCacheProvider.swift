@@ -1,5 +1,5 @@
 import XCTest
-@testable import Apollo
+@testable import ApolloGateway
 
 public typealias TearDownHandler = () throws -> ()
 public typealias TestDependency<Resource> = (Resource, TearDownHandler?)

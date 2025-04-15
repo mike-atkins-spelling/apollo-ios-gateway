@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ApolloCodegenLib
+@testable import ApolloGatewayCodegenLib
 
 public struct CodegenTestHelper {
   

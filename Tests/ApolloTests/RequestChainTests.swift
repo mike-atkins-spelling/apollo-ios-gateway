@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import Apollo
+import ApolloGateway
 import ApolloTestSupport
 import StarWarsAPI
 

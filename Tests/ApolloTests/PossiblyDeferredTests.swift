@@ -1,5 +1,5 @@
 import XCTest
-@testable import Apollo
+@testable import ApolloGateway
 import ApolloTestSupport
 
 private struct TestError: Error {}

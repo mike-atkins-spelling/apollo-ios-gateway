@@ -2,7 +2,7 @@
 import XCTest
 import ApolloTestSupport
 import ApolloCodegenTestSupport
-@testable import ApolloCodegenLib
+@testable import ApolloGatewayCodegenLib
 
 class SchemaRegistryApolloSchemaDownloaderTests: XCTestCase {
   func testDownloadingSchema_fromSchemaRegistry_shouldOutputSDL() throws {

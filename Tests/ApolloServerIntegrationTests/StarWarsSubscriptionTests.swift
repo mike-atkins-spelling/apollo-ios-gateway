@@ -1,7 +1,7 @@
 import XCTest
-import Apollo
+import ApolloGateway
 import ApolloTestSupport
-@testable import ApolloWebSocket
+@testable import ApolloGatewayWebSocket
 import StarWarsAPI
 
 class StarWarsSubscriptionTests: XCTestCase {

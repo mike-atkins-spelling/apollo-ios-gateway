@@ -14,26 +14,26 @@ let package = Package(
   products: [
     .library(
       name: "ApolloGateway",
-      targets: ["Apollo"]),
+      targets: ["ApolloGateway"]),
     .library(
       name: "ApolloGatewayAPI",
-      targets: ["ApolloAPI"]),
+      targets: ["ApolloGatewayAPI"]),
     .library(
       name: "ApolloGatewayUtils",
-      targets: ["ApolloUtils"]),
+      targets: ["ApolloGatewayUtils"]),
     .library(
       name: "ApolloGateway-Dynamic",
       type: .dynamic,
-      targets: ["Apollo"]),
+      targets: ["ApolloGateway"]),
     .library(
       name: "ApolloGatewayCodegenLib",
-      targets: ["ApolloCodegenLib"]),
+      targets: ["ApolloGatewayCodegenLib"]),
     .library(
       name: "ApolloGatewaySQLite",
-      targets: ["ApolloSQLite"]),
+      targets: ["ApolloGatewaySQLite"]),
     .library(
       name: "ApolloGatewayWebSocket",
-      targets: ["ApolloWebSocket"]),
+      targets: ["ApolloGatewayWebSocket"]),
   ],
   dependencies: [
     .package(
@@ -42,32 +42,36 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "Apollo",
+      name: "ApolloGateway",
       dependencies: [
-        "ApolloAPI",
-        "ApolloUtils"
+        "ApolloGatewayAPI",
+        "ApolloGatewayUtils"
       ],
+      path: "Sources/Apollo",
       exclude: [
         "Info.plist"
       ]),
     .target(
-      name: "ApolloAPI",
+      name: "ApolloGatewayAPI",
       dependencies: [],
+      path: "Sources/ApolloAPI",
       exclude: [
         "Info.plist",
         "CodegenV1"
       ]),
     .target(
-      name: "ApolloUtils",
+      name: "ApolloGatewayUtils",
       dependencies: [],
+      path: "Sources/ApolloUtils",
       exclude: [
         "Info.plist"
       ]),
     .target(
-      name: "ApolloCodegenLib",
+      name: "ApolloGatewayCodegenLib",
       dependencies: [
-        "ApolloUtils",
+        "ApolloGatewayUtils",
       ],
+      path: "Sources/ApolloCodegenLib",
       exclude: [
         "Info.plist",
         "Frontend/JavaScript",
@@ -77,20 +81,22 @@ let package = Package(
         .copy("Frontend/dist/ApolloCodegenFrontend.bundle.js.map")
       ]),
     .target(
-      name: "ApolloSQLite",
+      name: "ApolloGatewaySQLite",
       dependencies: [
-        "Apollo",
+        "ApolloGateway",
         .product(name: "SQLite", package: "SQLite.swift"),
       ],
+      path: "Sources/ApolloSQLite",
       exclude: [
         "Info.plist"
       ]),
     .target(
-      name: "ApolloWebSocket",
+      name: "ApolloGatewayWebSocket",
       dependencies: [
-        "Apollo",
-        "ApolloUtils"
+        "ApolloGateway",
+        "ApolloGatewayUtils"
       ],
+      path: "Sources/ApolloWebSocket",
       exclude: [
         "Info.plist"
       ])

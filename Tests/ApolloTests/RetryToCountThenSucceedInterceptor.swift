@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Apollo
+import ApolloGateway
 
 class RetryToCountThenSucceedInterceptor: ApolloInterceptor {
   let timesToCallRetry: Int

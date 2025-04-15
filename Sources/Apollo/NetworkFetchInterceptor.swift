@@ -1,6 +1,6 @@
 import Foundation
 #if !COCOAPODS
-import ApolloUtils
+import ApolloGatewayUtils
 #endif
 
 /// An interceptor which actually fetches data from the network.

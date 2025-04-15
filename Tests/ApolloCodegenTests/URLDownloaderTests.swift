@@ -1,4 +1,4 @@
-@testable import ApolloCodegenLib
+@testable import ApolloGatewayCodegenLib
 import ApolloTestSupport
 import ApolloCodegenTestSupport
 import XCTest

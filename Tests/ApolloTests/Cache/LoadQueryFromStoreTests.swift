@@ -1,7 +1,7 @@
 import XCTest
-@testable import Apollo
+@testable import ApolloGateway
 #if canImport(ApolloSQLite)
-import ApolloSQLite
+import ApolloGatewaySQLite
 #endif
 import ApolloTestSupport
 import StarWarsAPI

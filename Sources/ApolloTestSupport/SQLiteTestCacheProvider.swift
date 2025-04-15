@@ -1,6 +1,6 @@
 import Foundation
-import Apollo
-import ApolloSQLite
+import ApolloGateway
+import ApolloGatewaySQLite
 
 public class SQLiteTestCacheProvider: TestCacheProvider {
   /// Execute a test block rather than return a cache synchronously, since cache setup may be

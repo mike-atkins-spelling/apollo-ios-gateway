@@ -1,6 +1,6 @@
 import Foundation
 #if !COCOAPODS
-import Apollo
+import ApolloGateway
 #endif
 
 public enum SQLiteNormalizedCacheError: Error {

@@ -1,4 +1,4 @@
-@testable import Apollo
+@testable import ApolloGateway
 
 protocol TestConfig {
   func network(store: ApolloStore) -> NetworkTransport

@@ -1,8 +1,8 @@
 import XCTest
-@testable import ApolloWebSocket
+@testable import ApolloGatewayWebSocket
 import ApolloTestSupport
 import Nimble
-import Apollo
+import ApolloGateway
 import SubscriptionAPI
 
 class GraphqlTransportWsProtocolTests: WSProtocolTestsBase {

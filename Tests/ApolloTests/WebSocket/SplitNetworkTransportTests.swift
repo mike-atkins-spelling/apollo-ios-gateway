@@ -7,9 +7,9 @@
 
 import Foundation
 import XCTest
-import Apollo
+import ApolloGateway
 import ApolloTestSupport
-@testable import ApolloWebSocket
+@testable import ApolloGatewayWebSocket
 
 class SplitNetworkTransportTests: XCTestCase {
   

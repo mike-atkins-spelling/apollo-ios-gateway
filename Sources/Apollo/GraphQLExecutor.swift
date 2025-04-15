@@ -1,6 +1,6 @@
 import Foundation
 #if !COCOAPODS
-import ApolloUtils
+import ApolloGatewayUtils
 #endif
 
 /// A field resolver is responsible for resolving a value for a field.

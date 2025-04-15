@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Apollo
+import ApolloGateway
 
 public struct TestFileHelper {
   

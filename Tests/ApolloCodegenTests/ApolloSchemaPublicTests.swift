@@ -1,7 +1,7 @@
 import XCTest
 import ApolloTestSupport
 import ApolloCodegenTestSupport
-import ApolloCodegenLib
+import ApolloGatewayCodegenLib
 
 class ApolloSchemaPublicTests: XCTestCase {
   private var defaultOutputURL: URL {

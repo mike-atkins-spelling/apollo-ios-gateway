@@ -1,6 +1,6 @@
 import Foundation
 #if !COCOAPODS
-import ApolloUtils
+import ApolloGatewayUtils
 #endif
 
 extension HTTPURLResponse: ApolloCompatible {}

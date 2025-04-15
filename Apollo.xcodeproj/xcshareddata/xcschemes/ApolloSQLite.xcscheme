@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B7BDABE23FDEBB600ACD198"
-               BuildableName = "ApolloSQLite.framework"
-               BlueprintName = "ApolloSQLite"
+               BuildableName = "ApolloGatewaySQLite.framework"
+               BlueprintName = "ApolloGatewaySQLite"
                ReferencedContainer = "container:Apollo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,8 +41,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B7BDABE23FDEBB600ACD198"
-            BuildableName = "ApolloSQLite.framework"
-            BlueprintName = "ApolloSQLite"
+            BuildableName = "ApolloGatewaySQLite.framework"
+            BlueprintName = "ApolloGatewaySQLite"
             ReferencedContainer = "container:Apollo.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
@@ -74,8 +74,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B7BDABE23FDEBB600ACD198"
-            BuildableName = "ApolloSQLite.framework"
-            BlueprintName = "ApolloSQLite"
+            BuildableName = "ApolloGatewaySQLite.framework"
+            BlueprintName = "ApolloGatewaySQLite"
             ReferencedContainer = "container:Apollo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

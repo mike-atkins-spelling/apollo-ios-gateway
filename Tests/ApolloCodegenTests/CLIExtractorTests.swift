@@ -8,7 +8,7 @@
 
 import XCTest
 import ApolloCodegenTestSupport
-@testable import ApolloCodegenLib
+@testable import ApolloGatewayCodegenLib
 
 class CLIExtractorTests: XCTestCase {
   

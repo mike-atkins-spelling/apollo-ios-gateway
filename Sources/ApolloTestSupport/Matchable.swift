@@ -1,5 +1,5 @@
 import Foundation
-import Apollo
+import ApolloGateway
 
 public protocol Matchable {
   associatedtype Base

@@ -1,7 +1,7 @@
 import Foundation
 import SQLite
 #if !COCOAPODS
-import Apollo
+import ApolloGateway
 #endif
 
 private let serializedReferenceKey = "$reference"

@@ -1,5 +1,5 @@
 import XCTest
-@testable import Apollo
+@testable import ApolloGateway
 
 class VersionNumberTests: XCTestCase {
   func testVersionNumberExists() {

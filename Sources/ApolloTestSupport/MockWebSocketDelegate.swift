@@ -1,5 +1,5 @@
 import Foundation
-@testable import ApolloWebSocket
+@testable import ApolloGatewayWebSocket
 
 public class MockWebSocketDelegate: WebSocketClientDelegate {
   public var didReceiveMessage: ((String) -> Void)?

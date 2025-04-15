@@ -1,6 +1,6 @@
 import XCTest
-@testable import Apollo
-@testable import ApolloSQLite
+@testable import ApolloGateway
+@testable import ApolloGatewaySQLite
 import ApolloTestSupport
 import StarWarsAPI
 import SQLite

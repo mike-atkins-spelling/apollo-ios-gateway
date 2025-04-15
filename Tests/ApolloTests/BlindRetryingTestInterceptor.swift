@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Apollo
+import ApolloGateway
 
 // An interceptor which blindly retries every time it receives a request. 
 class BlindRetryingTestInterceptor: ApolloInterceptor {
