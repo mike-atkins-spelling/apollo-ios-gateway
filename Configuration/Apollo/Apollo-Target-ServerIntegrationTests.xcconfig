@@ -1,5 +1,5 @@
 #include "../Shared/Workspace-Universal-Test.xcconfig"
 
-INFOPLIST_FILE = Tests/ApolloServerIntegrationTests/Info.plist
+INFOPLIST_FILE = Tests/ApolloGatewayServerIntegrationTests/Info.plist
 
 SUPPORTED_PLATFORMS = macosx

@@ -1,11 +1,11 @@
 // @generated
 //  This file was automatically generated and should not be edited.
 
-import Apollo
+import ApolloGateway
 import Foundation
 
 /// The episodes in the Star Wars trilogy
-public enum Episode: RawRepresentable, Equatable, Hashable, CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum Episode: RawRepresentable, Equatable, Hashable, CaseIterable, ApolloGateway.JSONDecodable, ApolloGateway.JSONEncodable {
   public typealias RawValue = String
   /// Star Wars Episode IV: A New Hope, released in 1977.
   case newhope
